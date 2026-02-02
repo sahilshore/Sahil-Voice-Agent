@@ -15,9 +15,13 @@ from langgraph.prebuilt import create_react_agent
 # =====================================================
 # LOAD VECTOR STORE FUNCTION  ✅ ADD THIS
 # =====================================================
+from pathlib import Path
+
+BASE_DIR = Path(__file__).parent
 
 def load_vectorstore(path: str):
-    loader = PyPDFLoader(path)
+    pdf_path = BASE_DIR / path
+    loader = PyPDFLoader(str(pdf_path))
     docs = loader.load_and_split()
     embeddings = OpenAIEmbeddings()
     return FAISS.from_documents(docs, embeddings)
