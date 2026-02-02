@@ -111,25 +111,26 @@ This project addresses:
 ## ### %%Local Development Setup%%
 
 ### %%Step 1: Clone Repository%%
-```bash
-git clone https://github.com/sahilshore/Sahil-Voice-Agent.git
-cd Sahil-Voice-Agent
+
 %%Step 2: Create Virtual Environment%%
-python -m venv .venv
-source .venv/bin/activate
+
+        python -m venv .venv
+        source .venv/bin/activate
 
 %%Step 3: Install Dependencies%%
-pip install -r requirements.txt
+
+        pip install -r requirements.txt
 
 %%Step 4: Environment Variables%%
 
 Create a .env file:
-
-OPENAI_API_KEY=your_openai_api_key
-TAVILY_API_KEY=your_tavily_api_key
+    
+    OPENAI_API_KEY=your_openai_api_key
+    TAVILY_API_KEY=your_tavily_api_key
 
 %%Step 5: Run Application%%
-streamlit run frontend.py
+
+    mlit run frontend.py
 
 ### %%Cloud Deployment (Streamlit Cloud)%%
 
@@ -139,13 +140,13 @@ Open Streamlit Cloud and connect repository
 
 Set %%Main file%% to:
 
-frontend.py
+    frontend.py
 
 
 Add secrets in Streamlit Cloud:
-
-OPENAI_API_KEY = "your_openai_api_key"
-TAVILY_API_KEY = "your_tavily_api_key"
+    
+    OPENAI_API_KEY = "your_openai_api_key"
+    TAVILY_API_KEY = "your_tavily_api_key"
 
 
 Deploy application
