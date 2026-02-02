@@ -8,7 +8,7 @@ The project emphasizes %%reliable browser-based voice interaction%%, short confi
 
 ---
 
-## ### %%Problem-Statement%%
+## ### Problem-Statement
 
 Most AI chat applications focus heavily on text-based interaction and ignore real-world constraints of voice systems such as latency, browser permissions, and response clarity.
 
@@ -20,7 +20,7 @@ This project addresses:
 
 ---
 
-## ### %%Core-Objectives%%
+## ### Core-Objectives
 
 - Build a %%speech-to-speech AI agent%% with minimal user friction  
 - Use %%RAG%% to ground answers in domain knowledge  
@@ -30,32 +30,32 @@ This project addresses:
 
 ---
 
-## ### %%Key-Capabilities%%
+## ### Key-Capabilities
 
-### %%Voice-Interaction%%
+### Voice-Interaction
 - Captures microphone input directly from the browser
 - Converts spoken input into structured agent queries
 - Returns synthesized voice responses in near real-time
 
-### %%Retrieval-Augmented-Generation-(RAG)%%
+### Retrieval-Augmented-Generation-(RAG)
 - Loads domain-specific documents into FAISS
 - Performs semantic similarity search at runtime
 - Injects retrieved context into the agent prompt
 
-### %%Agent-Based-Reasoning%%
+### Agent-Based-Reasoning
 - Uses LangChain + LangGraph agents
 - Routes queries based on intent (profile, company, general)
 - Optionally invokes web tools when required
 
-### %%Fallback-Reliability%%
+### Fallback-Reliability
 - Designed to continue functioning even if voice input fails
 - Ensures predictable behavior across browsers
 
 ---
 
-## ### %%System-Architecture%%
+## ### System-Architecture
 
-### %%High-Level-Flow%%
+### High-Level-Flow
 
 
 #### Browser (Voice Input)
@@ -72,7 +72,7 @@ This project addresses:
 
 
 
-### %%Design-Philosophy%%
+### Design-Philosophy
 - %%Short answers over long explanations%%
 - %%Low-latency execution%%
 - %%Explicit routing logic%%
@@ -80,7 +80,7 @@ This project addresses:
 
 ---
 
-## ### %%Technology-Stack%%
+## ### Technology-Stack
 
 - %%Language%%: Python  
 - %%Frontend%%: Streamlit  
@@ -92,7 +92,7 @@ This project addresses:
 
 ---
 
-## ### %%Project-Structure%%
+## ### Project-Structure
 
     Sahil-Voice-Agent/
     ├── frontend.py # UI, microphone handling, voice playback
@@ -108,7 +108,7 @@ This project addresses:
 
 ---
 
-## ### %%Local-Development Setup%%
+## ### Local-Development Setup
 
 ### Step 1: Clone Repository
 
