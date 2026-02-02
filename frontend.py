@@ -15,6 +15,7 @@ st.set_page_config(page_title="Sahil Voice Agent", page_icon="🎤")
 st.title("🎤 Sahil – Voice Agent")
 
 st.caption("Speak directly or switch to chat mode.")
+st.info("🎙️ Voice input works best on Google Chrome. Other browsers may block microphone access.")
 
 # ---------------- MODE TOGGLE ----------------
 mode = st.toggle("💬 Switch to Chat Mode", value=False)
