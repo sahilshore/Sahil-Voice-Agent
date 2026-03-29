@@ -59,15 +59,15 @@ This project addresses:
 
 
 ####  Browser (Voice Input)
-####     ↓
+####        ↓
 ####  Streamlit Frontend
-####    ↓
+####        ↓
 ####  LangChain Agent
-####    ↓
+####        ↓
 ####  FAISS Vector Retrieval (RAG)
-####    ↓
+####        ↓
 ####  OpenAI GPT-4o-mini
-####    ↓
+####        ↓
 ####  Voice Response Output
 
 
