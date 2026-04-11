@@ -2,17 +2,7 @@
 
 ###   Project Overview
 
-Sahil AI Voice Agent is a %%production-oriented, voice-first conversational AI system%% designed to demonstrate modern agent-based reasoning, Retrieval-Augmented Generation (RAG), and real-time speech interaction.
-
-I am the creator and maintainer of **Sahil AI Voice Agent**, a production-oriented voice-first conversational AI system designed to simulate real-world human interaction using Retrieval-Augmented Generation (RAG) and agent-based reasoning.
-
-The project focuses on solving practical challenges in voice AI systems such as latency, response clarity, and browser-based speech interaction. It integrates speech-to-speech and speech-to-text, intelligent routing logic, and grounded responses using domain-specific retrieval pipelines.
-
-Tech stack includes Python, Streamlit, LLM APIs, vector databases, and real-time speech processing. The system is deployed for live demonstrations and interview scenarios, emphasizing reliability and deterministic behavior.
-
-This project demonstrates applied GenAI engineering beyond basic chatbots, showcasing multimodal interaction and system design thinking.
-
-Access to Claude Max would significantly enhance my ability to improve reasoning pipelines, optimize agent workflows, and experiment with advanced prompt orchestration and tool usage. I also plan to extend this project into a more scalable open-source framework for voice-based AI assistants.
+Sahil AI Voice Agent is a **production-oriented, voice-first conversational AI system** designed to demonstrate modern agent-based reasoning, Retrieval-Augmented Generation (RAG), and real-time speech interaction.
 
 
 ---
@@ -22,20 +12,20 @@ Access to Claude Max would significantly enhance my ability to improve reasoning
 Most AI chat applications focus heavily on text-based interaction and ignore real-world constraints of voice systems such as latency, browser permissions, and response clarity.
 
 This project addresses:
-- How to build a %%voice-first AI assistant%%
-- How to %%ground responses using retrieval%%
-- How to %%design agent routing logic%%
-- How to %%deploy reliably on cloud platforms%%
+- How to build a **voice-first AI assistant**
+- How to **ground responses using retrieval**
+- How to **design agent routing logic**
+- How to **deploy reliably on cloud platforms**
 
 ---
 
 ###  Core-Objectives
 
-- Build a %%speech-to-speech AI agent%% with minimal user friction  
-- Use %%RAG%% to ground answers in domain knowledge  
-- Demonstrate %%agent-based decision making%%  
-- Ensure %%deployment stability%% on Streamlit Cloud  
-- Maintain %%clear, human-like response style%%  
+- Build a **speech-to-speech AI agent** with minimal user friction  
+- Use **RAG** to ground answers in domain knowledge  
+- Demonstrate **agent-based decision making**  
+- Ensure **deployment stability** on Streamlit Cloud  
+- Maintain **clear, human-like response style**  
 
 ---
 
@@ -82,22 +72,22 @@ This project addresses:
 
 
 ###  Design-Philosophy
-- %%Short answers over long explanations%%
-- %%Low-latency execution%%
-- %%Explicit routing logic%%
-- %%Production realism over experimentation%%
+- **Short answers over long explanations**
+- **Low-latency execution**
+- **Explicit routing logic**
+- **Production realism over experimentation**
 
 ---
 
 ###  Technology-Stack
 
-- %%Language%%: Python  
-- %%Frontend%%: Streamlit  
-- %%LLM%%: OpenAI GPT-4o-mini  
-- %%Agent Framework%%: LangChain, LangGraph  
-- %%Vector Store%%: FAISS  
-- %%Speech APIs%%: OpenAI (voice input/output)  
-- %%Deployment%%: Streamlit Cloud  
+- **Language** Python  
+- **Frontend** Streamlit  
+- **LLM** OpenAI GPT-4o-mini  
+- **Agent Framework** LangChain, LangGraph  
+- **Vector Store** FAISS  
+- **Speech APIs** OpenAI (voice input/output)  
+- **Deployment** Streamlit Cloud  
 
 ---
 
