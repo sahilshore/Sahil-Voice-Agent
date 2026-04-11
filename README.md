@@ -6,7 +6,7 @@ Sahil AI Voice Agent is a %%production-oriented, voice-first conversational AI s
 
 I am the creator and maintainer of **Sahil AI Voice Agent**, a production-oriented voice-first conversational AI system designed to simulate real-world human interaction using Retrieval-Augmented Generation (RAG) and agent-based reasoning.
 
-The project focuses on solving practical challenges in voice AI systems such as latency, response clarity, and browser-based speech interaction. It integrates speech-to-text, intelligent routing logic, and grounded responses using domain-specific retrieval pipelines.
+The project focuses on solving practical challenges in voice AI systems such as latency, response clarity, and browser-based speech interaction. It integrates speech-to-speech and speech-to-text, intelligent routing logic, and grounded responses using domain-specific retrieval pipelines.
 
 Tech stack includes Python, Streamlit, LLM APIs, vector databases, and real-time speech processing. The system is deployed for live demonstrations and interview scenarios, emphasizing reliability and deterministic behavior.
 
